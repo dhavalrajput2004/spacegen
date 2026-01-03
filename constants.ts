@@ -1,0 +1,19 @@
+
+export const GAME_CONSTANTS = {
+  PLAYER_RADIUS: 25,
+  INITIAL_HEALTH: 100,
+  INITIAL_SHIELD: 50,
+  MAX_HEALTH: 100,
+  MAX_SHIELD: 100,
+  ASTEROID_SPAWN_RATE: 0.02,
+  CRYSTAL_SPAWN_RATE: 0.005,
+  SPEED_INCREMENT: 0.0001,
+  COLORS: {
+    PLAYER: '#22d3ee', // Cyan-400
+    SHIELD: '#818cf8', // Indigo-400
+    ASTEROID: '#94a3b8', // Slate-400
+    CRYSTAL: '#f472b6', // Pink-400
+    THRUSTER: '#f97316', // Orange-500
+    BACKGROUND: '#020617',
+  },
+};
